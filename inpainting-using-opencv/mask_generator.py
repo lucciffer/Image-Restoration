@@ -8,7 +8,7 @@ print(img.shape)
 #generating mask
 for i in range(img.shape[0]):
     for j in range(img.shape[1]):
-        if img[i, j] >= 220 and img[i, j] <= 255:
+        if img[i, j] >= 225 and img[i, j] <= 255:
             img[i, j] = 255
         else:
             img[i, j] = 0
