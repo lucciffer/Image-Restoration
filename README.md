@@ -16,7 +16,7 @@ or
 pip install matplotlib
 ```  
 ## Usage
-###  Inpainting using OpenCV:  
+###  Image Inpainting using OpenCV:  
 First run the `mask_generator.py` to generate a mask for the given input image.  
 Then to inpaint the image with the generated mask, run the `inpainting-using-opencv.py` by passing arguements. e.g.  
 ```
