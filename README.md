@@ -18,6 +18,7 @@ pip install matplotlib
 ## Usage
 ###  Image Inpainting using OpenCV:  
 First run the `mask_generator.py` to generate a mask for the given input image.  
+If you already have the mask for the corresponding input image, then skip the mask generation step.  
 Then to inpaint the image with the generated mask, run the `inpainting-using-opencv.py` by passing arguements. e.g.  
 ```
 python inpainting-using-opencv.py --image [path to the image] --mask [path to the mask of the input image]  --method ['ns' or 'telea']
